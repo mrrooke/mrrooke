@@ -1,0 +1,10 @@
+doctype html public
+html(lang="en" itemscope itemtype="http://schema.org/Framework")
+  head
+    != partial("/_includes/_head-include")
+  
+  body.ng-cloak.l-offset-nav(ng-app="BlankApp" ng-controller="AppCtrl")
+    != partial("/_includes/_main-nav")
+
+    != partial("/_includes/_footer")
+    != partial("/_includes/_scripts-include")
